@@ -24,9 +24,9 @@ The request area of the pane includes a predefined input format. After filling i
 ## Set up the RevitAddin.addin file
 
 - The file is delivered with the project
-- In the section <Assembly>...</Assembly> you need to specify where the RevitAddin.dll file is after building the project. Example: 
-<Assembly>C:\Users\msi\Desktop\Task\src\RevitAddin\RevitAddin\bin\Debug\net8.0-windows\RevitAddin.dll</Assembly>
-- Copy the file to "C:\ProgramData\Autodesk\Revit\Addins\2026"
+- In the section "Assembly" you need to specify where the RevitAddin.dll file is after building the project. Example: 
+  C:\Users\msi\Desktop\Task\src\RevitAddin\RevitAddin\bin\Debug\net8.0-windows\RevitAddin.dll
+- Copy RevitAddin.addin to "C:\ProgramData\Autodesk\Revit\Addins\2026"
 - Doing that you specify to Revit where it can find the .dll file containing the addin's logic
 
 ## Starting the server
