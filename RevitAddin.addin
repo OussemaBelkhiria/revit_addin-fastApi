@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <RevitAddIns>
   <AddIn Type="Application">
-    <Name>My First Revit Panel</Name> 
+    <Name>Revit AddIn</Name> 
     <Assembly>C:\Users\msi\Desktop\Task\src\RevitAddin\RevitAddin\bin\Debug\net8.0-windows\RevitAddin.dll</Assembly> 
     <AddInId>249D4A2B-497F-4EC6-8675-B5F0E979BF8C</AddInId>     
     <FullClassName>RevitAddin.AddIn</FullClassName> 
